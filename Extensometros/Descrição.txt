@@ -1,0 +1,4 @@
+Espelho de corrente para controlar a corrente na resistência variável, usa-se um amplificador operacional para aumentar a queda na resistência usando o Vbias para garantir que o intervalo do output fica entre 0 e 3.3V para puder ser lido por um teensy com facilidade
+
+Faltam circuitos de proteção
+O amp op n é open-drain
