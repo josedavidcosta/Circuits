@@ -1,0 +1,8 @@
+O objetivo deste circuito é:
+ se a tensão for superior a +12V a luz vermelha piscar
+ se a tensão for inferior a +12V a luz verde liga sem piscar
+ se a mensagem de erro for diferente de 0 a luz vermelha liga sem piscar
+ 
+ a mensagem de erro pode apagar depois de ser ativada mas a luz vermelha deve permanecer ligada até ser realizado um reset no botão de reset. Depois de pressionado o reset o circuito volta a funcionar normalmente
+
+
