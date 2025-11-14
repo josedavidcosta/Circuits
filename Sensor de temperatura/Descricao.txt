@@ -1,0 +1,4 @@
+Este sensor mede a temperatura de através da variação da resistência. A variação da resistência dá-se de forma logarítmica, como se pode ver no graph ºC.Ohm. Uma equação aproximada da reta é y = -65,746x + 236,19, sendo y a temperatura e x o logaritmo da resistência.
+Para calcular a resistência irei usar um espelho de corrente de aproximadamente 0.5mA e irei usar um amplificador instrumental para medir a tensão no polo da resistência  que não está ligado ao VDD. Usarei o ganho do amplificador e o bias para colocar os valores de output do amplificador em 0V quando a resistência é mínima (100 ohms) e menor que 3.3V quando a resistência é máxima (5000 ohms). Limitou-se a resistência a 5000 dado, para a aplicação em mente, não é realista um valor superior a este.
+As equações usadas para o espelho e para o ganho estão no ficheiro calculadora amp-op resistencia variavel.
+
